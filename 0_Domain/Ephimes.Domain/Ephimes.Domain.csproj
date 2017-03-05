@@ -31,7 +31,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Builders\AplicacaoBuilder.cs" />
@@ -96,12 +95,6 @@
     <Compile Include="Services\ControleUsuario.cs" />
     <Compile Include="Services\IncluirContratanteService.cs" />
     <Compile Include="Services\UsuarioService.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\5_CrossCutting\Ephimes.CrossCutting\Ephimes.CrossCutting.csproj">
-      <Project>{73e27dcb-1798-4293-ad70-31e1ab120f83}</Project>
-      <Name>Ephimes.CrossCutting</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

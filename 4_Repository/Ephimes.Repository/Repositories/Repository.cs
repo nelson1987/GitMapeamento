@@ -1,15 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Linq.Expressions;
+using Ephimes.Context.Interfaces;
+using Ephimes.Context.Models;
+using Ephimes.Domain.Interfaces.Repositories;
+using Microsoft.Practices.ServiceLocation;
+/*
+ * using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-using Ephimes.Domain.Interfaces.Repositories;
 using Microsoft.Practices.ServiceLocation;
+using NeoErp.CentralSolicitacoes.Domain.Interfaces.Repository;
+using NeoErp.Contexts;
+using NeoErp.Contexts.Interfaces;
+ */
+
+
 
 namespace Ephimes.Repository.Repositories
 {
-    public class Repository<TEntity> 
-        : IRepository<TEntity>, IDisposable 
+    public class Repository<TEntity>
+        : IRepository<TEntity>, IDisposable
         where TEntity : class
     {
         private readonly IDbContext _dbContext;
@@ -18,11 +33,26 @@ namespace Ephimes.Repository.Repositories
         public Repository()
         {
             var contextManager =
-                ServiceLocator.Current.GetInstance<IContextManager<DataContext>>()
-                    as ContextManager<DataContext>;
+                ServiceLocator.Current.GetInstance<IContextManager<DataContexto>>()
+                    as ContextManager<DataContexto>;
 
             _dbContext = contextManager.GetContext();
             _dbSet = _dbContext.Set<TEntity>();
+        }
+
+        private string NomeEntidade
+        {
+            get { return typeof (TEntity).FullName; }
+        }
+
+        protected IDbContext Context
+        {
+            get { return _dbContext; }
+        }
+
+        protected IDbSet<TEntity> DbSet
+        {
+            get { return _dbSet; }
         }
 
         public TEntity Select()
@@ -43,20 +73,6 @@ namespace Ephimes.Repository.Repositories
         public TEntity Delete()
         {
             throw new NotImplementedException();
-        }
-        private string NomeEntidade
-        {
-            get { return typeof (TEntity).FullName; }
-        }
-
-        protected IDbContext Context
-        {
-            get { return _dbContext; }
-        }
-
-        protected IDbSet<TEntity> DbSet
-        {
-            get { return _dbSet; }
         }
 
         public virtual void Add(TEntity entity)

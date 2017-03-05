@@ -1,5 +1,0 @@
-D:\GIT_Repositorio\GitMapeamento\0_Domain\Ephimes.Domain\bin\Debug\Ephimes.Domain.dll
-D:\GIT_Repositorio\GitMapeamento\0_Domain\Ephimes.Domain\bin\Debug\Ephimes.Domain.pdb
-D:\GIT_Repositorio\GitMapeamento\0_Domain\Ephimes.Domain\obj\Debug\Ephimes.Domain.csprojResolveAssemblyReference.cache
-D:\GIT_Repositorio\GitMapeamento\0_Domain\Ephimes.Domain\obj\Debug\Ephimes.Domain.dll
-D:\GIT_Repositorio\GitMapeamento\0_Domain\Ephimes.Domain\obj\Debug\Ephimes.Domain.pdb

@@ -34,3 +34,27 @@ packages/Ninject\.3\.2\.2\.0/lib/sl3-wp/
 packages/Ninject\.3\.2\.2\.0/lib/sl2/
 
 packages/CommonServiceLocator\.1\.3/lib/portable-net4\+sl5\+netcore45\+wpa81\+wp8/
+
+0_Domain/Ephimes\.Domain/obj/Debug/
+
+packages/Ninject\.3\.2\.2\.0/lib/net45-full/
+
+packages/Ninject\.3\.2\.2\.0/lib/sl4/
+
+packages/Ninject\.3\.2\.2\.0/lib/net40/
+
+packages/Ninject\.3\.2\.2\.0/lib/net35/
+
+packages/
+
+5_CrossCutting/Ephimes\.CrossCutting/obj/Debug/
+
+0_Domain/Ephimes\.Domain\.Tests/obj/Debug/
+
+1_Presentation/Ephimes\.Presentation/obj/Debug/
+
+2_Application/Ephimes\.Application/obj/Debug/
+
+3_Service/Ephimes\.Service/obj/Debug/
+
+4_Repository/Ephimes\.Context/obj/Debug/
