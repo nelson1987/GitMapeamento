@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using Ephimes.Domain.Entities;
 
-namespace WebForLink.Domain
+namespace Ephimes.Domain.Entities
 {
     public class Etapa
     {

@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Ephimes.Domain.Entities.Tipos;
-using WebForLink.Domain;
 
 namespace Ephimes.Domain.Entities
 {

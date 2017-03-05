@@ -50,8 +50,25 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Entities\UsuarioTests.cs" />
+    <Compile Include="Entities\AplicacaoTests.cs" />
+    <Compile Include="Entities\ArquivoTests.cs" />
+    <Compile Include="Entities\ContatoTests.cs" />
+    <Compile Include="Entities\ContratanteTests.cs" />
+    <Compile Include="Entities\DocumentoTests.cs" />
+    <Compile Include="Entities\EmpresaTests.cs" />
+    <Compile Include="Entities\EtapaTests.cs" />
+    <Compile Include="Entities\FichaCadastralTests.cs" />
+    <Compile Include="Entities\FluxoTests.cs" />
+    <Compile Include="Entities\PerfilTests.cs" />
+    <Compile Include="Entities\SolicitacaoCadastroTests.cs" />
+    <Compile Include="Entities\SolicitacaoTests.cs" />
+    <Compile Include="Entities\UsuarioPerfilTests.cs" />
+    <Compile Include="Entities\UsuarioTests.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AplicacaoServiceTests.cs" />
+    <Compile Include="Services\GestaoUsuario.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Ephimes.Domain\Ephimes.Domain.csproj">
