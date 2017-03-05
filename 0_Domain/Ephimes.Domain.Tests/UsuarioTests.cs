@@ -6,7 +6,7 @@ namespace Ephimes.Domain.Tests
     public class UsuarioTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void CriarUsuario()
         {
         }
     }
