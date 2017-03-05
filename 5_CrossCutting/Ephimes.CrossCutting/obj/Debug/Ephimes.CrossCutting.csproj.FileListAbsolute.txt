@@ -1,5 +1,0 @@
-C:\Users\nelso\GitMapeamento\5_CrossCutting\Ephimes.CrossCutting\bin\Debug\Ephimes.CrossCutting.dll
-C:\Users\nelso\GitMapeamento\5_CrossCutting\Ephimes.CrossCutting\bin\Debug\Ephimes.CrossCutting.pdb
-C:\Users\nelso\GitMapeamento\5_CrossCutting\Ephimes.CrossCutting\obj\Debug\Ephimes.CrossCutting.dll
-C:\Users\nelso\GitMapeamento\5_CrossCutting\Ephimes.CrossCutting\obj\Debug\Ephimes.CrossCutting.pdb
-C:\Users\nelso\GitMapeamento\5_CrossCutting\Ephimes.CrossCutting\obj\Debug\Ephimes.CrossCutting.csprojResolveAssemblyReference.cache

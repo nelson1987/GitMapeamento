@@ -3,7 +3,11 @@
 
 4_Repository/Ephimes\.Repository/obj/Debug/
 
-packages/
+\.packages/
+
+.bin/
+
+.obj/
 
 packages/CommonServiceLocator\.NinjectAdapter\.Unofficial\.3\.2\.2\.0/lib/Net40/
 
@@ -19,8 +23,14 @@ packages/EntityFramework\.6\.1\.3/lib/net45/
 
 packages/EntityFramework\.6\.1\.3/tools/
 
-packages/Ninject\.3\.2\.2\.0/lib/net35/
+\packages/
 
-packages/Ninject\.3\.2\.2\.0/lib/net40/
+packages/Ninject\.3\.2\.2\.0/lib/sl4-windowsphone71/
 
-packages/Ninject\.3\.2\.2\.0/lib/net45-full/
+packages/Ninject\.3\.2\.2\.0/lib/sl3/
+
+packages/Ninject\.3\.2\.2\.0/lib/sl3-wp/
+
+packages/Ninject\.3\.2\.2\.0/lib/sl2/
+
+packages/CommonServiceLocator\.1\.3/lib/portable-net4\+sl5\+netcore45\+wpa81\+wp8/

@@ -1,5 +1,0 @@
-C:\Users\nelso\GitMapeamento\1_Presentation\Ephimes.Presentation\bin\Debug\Ephimes.Presentation.dll
-C:\Users\nelso\GitMapeamento\1_Presentation\Ephimes.Presentation\bin\Debug\Ephimes.Presentation.pdb
-C:\Users\nelso\GitMapeamento\1_Presentation\Ephimes.Presentation\obj\Debug\Ephimes.Presentation.csprojResolveAssemblyReference.cache
-C:\Users\nelso\GitMapeamento\1_Presentation\Ephimes.Presentation\obj\Debug\Ephimes.Presentation.dll
-C:\Users\nelso\GitMapeamento\1_Presentation\Ephimes.Presentation\obj\Debug\Ephimes.Presentation.pdb
