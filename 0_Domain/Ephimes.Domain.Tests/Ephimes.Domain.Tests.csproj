@@ -50,8 +50,14 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UsuarioTests.cs" />
+    <Compile Include="Entities\UsuarioTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ephimes.Domain\Ephimes.Domain.csproj">
+      <Project>{e461899b-c5db-4e5b-9e3f-77049c9e3f64}</Project>
+      <Name>Ephimes.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
