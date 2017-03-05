@@ -1,15 +1,15 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Ephimes.Domain.Builders;
+﻿using Ephimes.Domain.Builders;
 using Ephimes.Domain.Entities;
 using Ephimes.Domain.Entities.Tipos;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Ephimes.Domain.Tests.Entities
 {
     [TestClass]
     public class ContratanteTests
     {
-        private Aplicacao _webForLink;
         private Contratante _samarco;
+        private Aplicacao _webForLink;
 
         [TestInitialize]
         public void SetUp()
@@ -28,10 +28,11 @@ namespace Ephimes.Domain.Tests.Entities
             Assert.AreEqual(_samarco.Empresas.Count, 0);
             Assert.AreEqual(_samarco.Usuarios.Count, 0);
         }
+
         [TestMethod]
         public void IncluirClienteNoContratante()
         {
-            Usuario nelson = new Usuario("Nelson");
+            var nelson = new Usuario("Nelson");
             _samarco.AdicionarUsuario(nelson);
             Assert.AreEqual(_samarco.Usuarios.Count, 1);
             Assert.AreEqual(_samarco.Usuarios[0].Login, "Nelson");

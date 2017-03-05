@@ -88,11 +88,20 @@
     <Compile Include="Entities\Usuario.cs" />
     <Compile Include="Exceptions\ContratanteNullException.cs" />
     <Compile Include="Interfaces\IContratanteService.cs" />
+    <Compile Include="Interfaces\Repositories\IUsuarioRepository.cs" />
+    <Compile Include="Interfaces\Services\IUsuarioService.cs" />
+    <Compile Include="Interfaces\Repositories\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ContratanteService.cs" />
     <Compile Include="Services\ControleUsuario.cs" />
     <Compile Include="Services\IncluirContratanteService.cs" />
     <Compile Include="Services\UsuarioService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\5_CrossCutting\Ephimes.CrossCutting\Ephimes.CrossCutting.csproj">
+      <Project>{73e27dcb-1798-4293-ad70-31e1ab120f83}</Project>
+      <Name>Ephimes.CrossCutting</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

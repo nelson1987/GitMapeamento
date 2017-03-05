@@ -1,6 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Ephimes.Domain.Entities;
+﻿using Ephimes.Domain.Entities;
 using Ephimes.Domain.Entities.Tipos;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Ephimes.Domain.Tests.Entities
 {

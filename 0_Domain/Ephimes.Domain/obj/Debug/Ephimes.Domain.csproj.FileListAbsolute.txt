@@ -8,3 +8,5 @@ C:\Users\nelso\GitMapeamento\0_Domain\Ephimes.Domain\bin\Debug\Ephimes.Domain.pd
 C:\Users\nelso\GitMapeamento\0_Domain\Ephimes.Domain\obj\Debug\Ephimes.Domain.csprojResolveAssemblyReference.cache
 C:\Users\nelso\GitMapeamento\0_Domain\Ephimes.Domain\obj\Debug\Ephimes.Domain.dll
 C:\Users\nelso\GitMapeamento\0_Domain\Ephimes.Domain\obj\Debug\Ephimes.Domain.pdb
+C:\Users\nelso\GitMapeamento\0_Domain\Ephimes.Domain\bin\Debug\Ephimes.CrossCutting.dll
+C:\Users\nelso\GitMapeamento\0_Domain\Ephimes.Domain\bin\Debug\Ephimes.CrossCutting.pdb

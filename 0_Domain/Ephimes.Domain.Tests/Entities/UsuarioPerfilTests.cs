@@ -1,37 +1,42 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Ephimes.Domain.Builders;
+﻿using Ephimes.Domain.Builders;
 using Ephimes.Domain.Entities;
 using Ephimes.Domain.Entities.Tipos;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Ephimes.Domain.Tests.Entities
 {
     [TestClass]
-    class UsuarioPerfilTests
+    internal class UsuarioPerfilTests
     {
         [TestInitialize]
         public void SetUp()
         {
         }
+
         [TestMethod]
         public void CriarUsuario()
         {
             #region Usuarios
-            Usuario nelson = new Usuario("nelson.neto");
-            Usuario carlos = new Usuario("carlos.jesus");
-            Usuario diego = new Usuario("diego.messeri");
+
+            var nelson = new Usuario("nelson.neto");
+            var carlos = new Usuario("carlos.jesus");
+            var diego = new Usuario("diego.messeri");
+
             #endregion
+
             #region Aplicações
-            Aplicacao webForLink = new AplicacaoBuilder().Nomeado("WFL").Descrito("WebForLink").Build();
-            Aplicacao webNotForn = new AplicacaoBuilder().Nomeado("WNF").Descrito("WebNotForn").Build();
-            Aplicacao webPourBreak = new AplicacaoBuilder().Nomeado("WPB").Descrito("WebPourBreak").Build();
-            Aplicacao vendorList = new AplicacaoBuilder().Nomeado("VL").Descrito("VendorList").Build();
-            Aplicacao surplus = new AplicacaoBuilder().Nomeado("SP").Descrito("Surplus").Build();
+
+            var webForLink = new AplicacaoBuilder().Nomeado("WFL").Descrito("WebForLink").Build();
+            var webNotForn = new AplicacaoBuilder().Nomeado("WNF").Descrito("WebNotForn").Build();
+            var webPourBreak = new AplicacaoBuilder().Nomeado("WPB").Descrito("WebPourBreak").Build();
+            var vendorList = new AplicacaoBuilder().Nomeado("VL").Descrito("VendorList").Build();
+            var surplus = new AplicacaoBuilder().Nomeado("SP").Descrito("Surplus").Build();
 
             #endregion
 
-            Perfil visualizador = new Perfil("Visualizador");
-            Perfil solicitante = new Perfil("Solicitante");
-            Perfil administrador = new Perfil("Administrador");
+            var visualizador = new Perfil("Visualizador");
+            var solicitante = new Perfil("Solicitante");
+            var administrador = new Perfil("Administrador");
 
             //Nelson -> Aplicacoes
             nelson.AdicionarPerfilNumaAplicacao(webForLink, visualizador);

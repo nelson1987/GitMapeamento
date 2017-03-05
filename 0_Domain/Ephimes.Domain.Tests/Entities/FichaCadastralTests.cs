@@ -1,8 +1,7 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System.Collections.Generic;
 using Ephimes.Domain.Entities;
-using System.Collections.Generic;
 using Ephimes.Domain.Entities.Tipos;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Ephimes.Domain.Tests.Entities
 {
@@ -13,7 +12,6 @@ namespace Ephimes.Domain.Tests.Entities
         public void TestMethod1()
         {
             var ficha = new FichaCompartilhada(new Compartilhamento(new Usuario("nelson"), new List<Documento>()));
-
         }
     }
 }

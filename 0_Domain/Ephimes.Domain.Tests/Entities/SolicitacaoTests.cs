@@ -1,18 +1,18 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Ephimes.Domain.Builders;
+﻿using Ephimes.Domain.Builders;
 using Ephimes.Domain.Entities;
 using Ephimes.Domain.Entities.Tipos;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Ephimes.Domain.Tests.Entities
 {
     [TestClass]
     public class SolicitacaoTests
     {
-        private Aplicacao _webForLink;
-        private Contratante _samarco;
         private Usuario _nelson;
         private TipoEmpresa _pessoaJuridica;
+        private Contratante _samarco;
         private Empresa _sorteq;
+        private Aplicacao _webForLink;
 
         [TestInitialize]
         public void SetUp()

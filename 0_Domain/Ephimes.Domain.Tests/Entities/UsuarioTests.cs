@@ -1,8 +1,7 @@
-﻿using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Ephimes.Domain.Builders;
 using Ephimes.Domain.Entities;
 using Ephimes.Domain.Entities.Tipos;
-using Ephimes.Domain.Builders;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Ephimes.Domain.Tests.Entities
 {
@@ -19,7 +18,7 @@ namespace Ephimes.Domain.Tests.Entities
         {
             _webForLink = new AplicacaoBuilder().Nomeado("WebForLink").Descrito("Cadastro De Fornecedores").Build();
             _webForMat = new AplicacaoBuilder().Nomeado("WebForMat").Descrito("Cadastro de Materiais").Build();
-            _samarco = new ClienteAncora("Samarco",_webForLink);
+            _samarco = new ClienteAncora("Samarco", _webForLink);
             _nelson = new Usuario("nelson.neto", _samarco);
         }
 

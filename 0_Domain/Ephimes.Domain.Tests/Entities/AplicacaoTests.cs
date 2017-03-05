@@ -8,6 +8,7 @@ namespace Ephimes.Domain.Tests.Entities
     public class AplicacaoTests
     {
         private Aplicacao webforlink;
+
         [TestInitialize]
         public void SetUp()
         {

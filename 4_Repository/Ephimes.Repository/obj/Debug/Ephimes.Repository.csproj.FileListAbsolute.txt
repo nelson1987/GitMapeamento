@@ -2,3 +2,8 @@ C:\Users\nelso\GitMapeamento\4_Repository\Ephimes.Repository\bin\Debug\Ephimes.R
 C:\Users\nelso\GitMapeamento\4_Repository\Ephimes.Repository\bin\Debug\Ephimes.Repository.pdb
 C:\Users\nelso\GitMapeamento\4_Repository\Ephimes.Repository\obj\Debug\Ephimes.Repository.dll
 C:\Users\nelso\GitMapeamento\4_Repository\Ephimes.Repository\obj\Debug\Ephimes.Repository.pdb
+C:\Users\nelso\GitMapeamento\4_Repository\Ephimes.Repository\bin\Debug\Ephimes.CrossCutting.dll
+C:\Users\nelso\GitMapeamento\4_Repository\Ephimes.Repository\bin\Debug\Ephimes.CrossCutting.pdb
+C:\Users\nelso\GitMapeamento\4_Repository\Ephimes.Repository\obj\Debug\Ephimes.Repository.csprojResolveAssemblyReference.cache
+C:\Users\nelso\GitMapeamento\4_Repository\Ephimes.Repository\bin\Debug\Ephimes.Domain.dll
+C:\Users\nelso\GitMapeamento\4_Repository\Ephimes.Repository\bin\Debug\Ephimes.Domain.pdb
