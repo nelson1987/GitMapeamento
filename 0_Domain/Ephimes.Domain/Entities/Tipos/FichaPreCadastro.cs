@@ -1,4 +1,4 @@
-﻿namespace WebForLink.Domain.Entities.Tipos
+﻿namespace Ephimes.Domain.Entities.Tipos
 {
     /// <summary>
     ///     Ficha Cadastral de Empresa não saneada pelo sistema

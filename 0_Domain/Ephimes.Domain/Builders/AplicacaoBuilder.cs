@@ -1,4 +1,4 @@
-﻿using WebForLink.Domain.Entities;
+﻿using Ephimes.Domain.Entities;
 
 namespace Ephimes.Domain.Builders
 {

@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using WebForLink.Domain.Entities;
+using Ephimes.Domain.Entities;
 
 namespace WebForLink.Domain
 {

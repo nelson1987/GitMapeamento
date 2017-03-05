@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WebForLink.Domain.Entities.Tipos
+namespace Ephimes.Domain.Entities.Tipos
 {
     public class SolicitacaoModificacaoBanco : Solicitacao
     {

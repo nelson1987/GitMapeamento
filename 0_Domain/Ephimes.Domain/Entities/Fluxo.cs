@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using WebForLink.Domain.Entities.Tipos;
+using Ephimes.Domain.Entities.Tipos;
+using WebForLink.Domain;
 
-namespace WebForLink.Domain.Entities
+namespace Ephimes.Domain.Entities
 {
     public class Fluxo
     {

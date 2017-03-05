@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WebForLink.Domain.Exceptions
+namespace Ephimes.Domain.Exceptions
 {
     //
     public class ContratanteNullException : Exception

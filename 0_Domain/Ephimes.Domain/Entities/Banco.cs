@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using WebForLink.Domain.Entities.Tipos;
+using Ephimes.Domain.Entities.Tipos;
 
-namespace WebForLink.Domain.Entities
+namespace Ephimes.Domain.Entities
 {
     public class Banco
     {

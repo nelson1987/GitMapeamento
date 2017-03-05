@@ -1,4 +1,4 @@
-﻿namespace WebForLink.Domain.Entities.Categorias
+﻿namespace Ephimes.Domain.Entities.Categorias
 {
     public class CategoriaEmpresaCh
     {

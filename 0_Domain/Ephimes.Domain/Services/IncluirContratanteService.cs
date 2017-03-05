@@ -1,6 +1,6 @@
-﻿using WebForLink.Domain.Entities;
+﻿using Ephimes.Domain.Entities;
 
-namespace WebForLink.Domain.Services
+namespace Ephimes.Domain.Services
 {
     public class IncluirContratanteService
     {

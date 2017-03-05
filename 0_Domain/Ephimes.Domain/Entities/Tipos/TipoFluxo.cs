@@ -1,4 +1,4 @@
-﻿namespace WebForLink.Domain.Entities.Tipos
+﻿namespace Ephimes.Domain.Entities.Tipos
 {
     public abstract class TipoFluxo
     {

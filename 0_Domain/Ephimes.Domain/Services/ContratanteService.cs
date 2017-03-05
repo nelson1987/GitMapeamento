@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using Ephimes.Domain.Builders;
-using WebForLink.Domain.Entities;
-using WebForLink.Domain.Entities.Categorias;
-using WebForLink.Domain.Entities.Status;
-using WebForLink.Domain.Entities.Tipos;
-using WebForLink.Domain.Interfaces;
+using Ephimes.Domain.Entities;
+using Ephimes.Domain.Entities.Categorias;
+using Ephimes.Domain.Entities.Status;
+using Ephimes.Domain.Entities.Tipos;
+using Ephimes.Domain.Interfaces;
 
 namespace Ephimes.Domain.Services
 {
@@ -68,11 +68,11 @@ namespace Ephimes.Domain.Services
             //    _contratante.AdicionarUsuario(usuario);
         }
 
-        public void IncluirCompartilhamento(Compartilhamento compartilhamento, FichaCompartilhada ficha,
-            List<Email> emails)
-        {
-            throw new NotImplementedException();
-        }
+        //public void IncluirCompartilhamento(Compartilhamento compartilhamento, FichaCompartilhada ficha,
+        //    List<Email> emails)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         public void IncluirContato(Contato contato)
         {

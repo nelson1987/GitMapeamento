@@ -1,6 +1,7 @@
 ﻿using System;
+using WebForLink.Domain;
 
-namespace WebForLink.Domain.Entities
+namespace Ephimes.Domain.Entities
 {
     public abstract class Solicitacao
     {

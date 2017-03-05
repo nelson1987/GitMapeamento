@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WebForLink.Domain.Entities
+namespace Ephimes.Domain.Entities
 {
     public class Passo
     {

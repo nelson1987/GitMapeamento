@@ -1,4 +1,4 @@
-﻿namespace WebForLink.Domain.Entities.Status
+﻿namespace Ephimes.Domain.Entities.Status
 {
     public class StatusSolicitacao
     {

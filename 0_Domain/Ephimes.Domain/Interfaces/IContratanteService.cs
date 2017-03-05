@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using WebForLink.Domain.Entities;
-using WebForLink.Domain.Entities.Categorias;
-using WebForLink.Domain.Entities.Status;
-using WebForLink.Domain.Entities.Tipos;
+using Ephimes.Domain.Entities;
+using Ephimes.Domain.Entities.Categorias;
+using Ephimes.Domain.Entities.Status;
+using Ephimes.Domain.Entities.Tipos;
 
-namespace WebForLink.Domain.Interfaces
+namespace Ephimes.Domain.Interfaces
 {
     public interface IContratanteService
     {

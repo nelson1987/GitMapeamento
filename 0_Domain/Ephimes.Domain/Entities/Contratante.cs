@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using WebForLink.Domain.Entities.Categorias;
-using WebForLink.Domain.Entities.Tipos;
+using Ephimes.Domain.Entities.Categorias;
+using Ephimes.Domain.Entities.Tipos;
 
-namespace WebForLink.Domain.Entities
+namespace Ephimes.Domain.Entities
 {
     public abstract class Contratante
     {

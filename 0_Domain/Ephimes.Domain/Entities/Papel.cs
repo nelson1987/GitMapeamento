@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using WebForLink.Domain;
 
-namespace WebForLink.Domain.Entities
+namespace Ephimes.Domain.Entities
 {
     public class Papel
     {

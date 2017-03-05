@@ -1,4 +1,4 @@
-﻿namespace WebForLink.Domain.Entities.Tipos
+﻿namespace Ephimes.Domain.Entities.Tipos
 {
     /// <summary>
     ///     Ficha Cadastral Comum das empresas do sistema
