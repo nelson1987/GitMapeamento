@@ -1,4 +1,4 @@
-﻿namespace Ephimes.Domain.Entities
+﻿namespace Ephimes.CrossCutting.Entities
 {
     public class Usuario
     {
