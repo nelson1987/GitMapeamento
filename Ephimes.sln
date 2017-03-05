@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ephimes.Repository", "4_Rep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ephimes.CrossCutting", "5_CrossCutting\Ephimes.CrossCutting\Ephimes.CrossCutting.csproj", "{73E27DCB-1798-4293-AD70-31E1AB120F83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ephimes.Domain.Tests", "0_Domain\Ephimes.Domain.Tests\Ephimes.Domain.Tests.csproj", "{7AD1CA97-692A-4572-BDB0-9BBD070BBA85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{73E27DCB-1798-4293-AD70-31E1AB120F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73E27DCB-1798-4293-AD70-31E1AB120F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73E27DCB-1798-4293-AD70-31E1AB120F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD1CA97-692A-4572-BDB0-9BBD070BBA85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD1CA97-692A-4572-BDB0-9BBD070BBA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD1CA97-692A-4572-BDB0-9BBD070BBA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD1CA97-692A-4572-BDB0-9BBD070BBA85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,5 +74,6 @@ Global
 		{01C4E7CF-6C63-4C65-AB19-024CD86080B0} = {3D251517-5D99-418E-9DE9-2BC1369A711F}
 		{00961D3F-2A9C-4EEC-BC3E-CF753A70C625} = {8C4F40BD-070A-4573-9573-4FBA1434209C}
 		{73E27DCB-1798-4293-AD70-31E1AB120F83} = {CE117D93-AEA0-4401-909E-36588F8DC66C}
+		{7AD1CA97-692A-4572-BDB0-9BBD070BBA85} = {3B5E3A0F-8D1A-464A-8163-17D8ED626A92}
 	EndGlobalSection
 EndGlobal
