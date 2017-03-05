@@ -3,8 +3,3 @@ D:\GIT_Repositorio\GitMapeamento\0_Domain\Ephimes.Domain\bin\Debug\Ephimes.Domai
 D:\GIT_Repositorio\GitMapeamento\0_Domain\Ephimes.Domain\obj\Debug\Ephimes.Domain.csprojResolveAssemblyReference.cache
 D:\GIT_Repositorio\GitMapeamento\0_Domain\Ephimes.Domain\obj\Debug\Ephimes.Domain.dll
 D:\GIT_Repositorio\GitMapeamento\0_Domain\Ephimes.Domain\obj\Debug\Ephimes.Domain.pdb
-C:\Users\nelso\GitMapeamento\0_Domain\Ephimes.Domain\bin\Debug\Ephimes.Domain.dll
-C:\Users\nelso\GitMapeamento\0_Domain\Ephimes.Domain\bin\Debug\Ephimes.Domain.pdb
-C:\Users\nelso\GitMapeamento\0_Domain\Ephimes.Domain\obj\Debug\Ephimes.Domain.csprojResolveAssemblyReference.cache
-C:\Users\nelso\GitMapeamento\0_Domain\Ephimes.Domain\obj\Debug\Ephimes.Domain.dll
-C:\Users\nelso\GitMapeamento\0_Domain\Ephimes.Domain\obj\Debug\Ephimes.Domain.pdb

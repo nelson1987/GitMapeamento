@@ -1,0 +1,4 @@
+C:\Users\nelso\GitMapeamento\4_Repository\Ephimes.Repository\bin\Debug\Ephimes.Repository.dll
+C:\Users\nelso\GitMapeamento\4_Repository\Ephimes.Repository\bin\Debug\Ephimes.Repository.pdb
+C:\Users\nelso\GitMapeamento\4_Repository\Ephimes.Repository\obj\Debug\Ephimes.Repository.dll
+C:\Users\nelso\GitMapeamento\4_Repository\Ephimes.Repository\obj\Debug\Ephimes.Repository.pdb

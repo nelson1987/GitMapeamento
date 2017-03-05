@@ -1,0 +1,5 @@
+C:\Users\nelso\GitMapeamento\3_Service\Ephimes.Service\bin\Debug\Ephimes.Service.dll
+C:\Users\nelso\GitMapeamento\3_Service\Ephimes.Service\bin\Debug\Ephimes.Service.pdb
+C:\Users\nelso\GitMapeamento\3_Service\Ephimes.Service\obj\Debug\Ephimes.Service.csprojResolveAssemblyReference.cache
+C:\Users\nelso\GitMapeamento\3_Service\Ephimes.Service\obj\Debug\Ephimes.Service.dll
+C:\Users\nelso\GitMapeamento\3_Service\Ephimes.Service\obj\Debug\Ephimes.Service.pdb
