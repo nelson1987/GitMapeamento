@@ -4,6 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 using Ephimes.Domain.Interfaces.Repositories;
+using Microsoft.Practices.ServiceLocation;
 
 namespace Ephimes.Repository.Repositories
 {
